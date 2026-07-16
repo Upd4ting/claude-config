@@ -47,5 +47,4 @@ else
 fi
 
 echo ""
-echo "Done. MCP servers are NOT installed automatically (machine-specific paths)."
-echo "See mcp/mcp-servers.json and the README to re-add them with 'claude mcp add'."
+echo "Done."

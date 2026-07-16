@@ -28,15 +28,6 @@
       "installedAt": "2026-02-13T18:11:36.421Z",
       "updatedAt": "2026-02-13T18:11:36.421Z"
     },
-    "notion": {
-      "source": "steipete/clawdis",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/steipete/clawdis.git",
-      "skillPath": "skills/notion/SKILL.md",
-      "skillFolderHash": "a7ad94bded33c36cd2fda9d6b7db57e2175ac4a4",
-      "installedAt": "2026-02-16T12:11:03.515Z",
-      "updatedAt": "2026-02-16T12:17:30.809Z"
-    },
     "skill-creator": {
       "source": "anthropics/skills",
       "sourceType": "github",

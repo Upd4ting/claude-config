@@ -153,6 +153,9 @@
     ]
   },
   "enableArtifact": false,
+  "enabledPlugins": {
+    "code-simplifier@claude-plugins-official": true
+  },
   "language": "french",
   "effortLevel": "high",
   "tui": "fullscreen",
@@ -163,8 +166,5 @@
   "autoCompactEnabled": false,
   "remoteControlAtStartup": true,
   "skipAutoPermissionPrompt": true,
-  "voiceEnabled": true,
-  "enabledPlugins": {
-    "code-simplifier@claude-plugins-official": true
-  }
+  "voiceEnabled": true
 }

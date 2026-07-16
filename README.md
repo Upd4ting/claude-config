@@ -17,10 +17,10 @@ on the other machine.
 | `agents/skills/`             | `~/.agents/skills/`      | The full skills library                    |
 | `agents/.skill-lock.json`    | `~/.agents/.skill-lock.json` | Skill provenance lock file             |
 | `plugins/plugins.txt`        | (via `claude plugin`)    | Plugins to reinstall                       |
-| `mcp/mcp-servers.json`       | (reference only)         | User-level MCP servers, env values stripped |
 
 Deliberately **not** tracked: `~/.claude/.credentials.json` (secrets),
-`settings.local.json` (machine-specific), sessions/history/caches.
+`settings.local.json` (machine-specific), MCP servers (machine-specific
+paths, re-add with `claude mcp add` if needed), sessions/history/caches.
 
 ## Setup on a new machine
 
@@ -32,20 +32,6 @@ cd ~/code/personnal/claude-config
 
 Existing real files are moved to `~/.claude-config-backup-<timestamp>/`
 before being replaced by symlinks.
-
-### MCP servers (manual)
-
-MCP servers are not installed automatically: their paths are
-machine-specific and their `env` may hold secrets. `mcp/mcp-servers.json`
-is a sanitized reference. Re-add them with, e.g.:
-
-```sh
-# requires ~/code/personnal/tradingview-mcp to be cloned first
-claude mcp add --scope user tradingview -- node ~/code/personnal/tradingview-mcp/src/server.js
-```
-
-The `pencil` server is registered automatically by the Pencil desktop app —
-nothing to do.
 
 ## Daily workflow
 
