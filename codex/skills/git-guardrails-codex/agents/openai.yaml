@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Guardrails for Codex"
+  short_description: "Block dangerous git commands"
+  default_prompt: "Use $git-guardrails-codex to install preventative git safety hooks."

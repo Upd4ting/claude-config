@@ -46,24 +46,6 @@
       "installedAt": "2026-03-30T11:04:57.067Z",
       "updatedAt": "2026-03-30T11:04:57.067Z"
     },
-    "computer-use": {
-      "source": "stablyai/orca",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/stablyai/orca.git",
-      "skillPath": "skills/computer-use/SKILL.md",
-      "skillFolderHash": "b3fb19187d9775774df2a93d59e9e0003093e4a2",
-      "installedAt": "2026-06-11T11:26:22.095Z",
-      "updatedAt": "2026-06-11T11:26:22.095Z"
-    },
-    "orchestration": {
-      "source": "stablyai/orca",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/stablyai/orca.git",
-      "skillPath": "skills/orchestration/SKILL.md",
-      "skillFolderHash": "2f7404841129a80c8b9add53c761f0ff11174dae",
-      "installedAt": "2026-06-11T11:27:14.640Z",
-      "updatedAt": "2026-06-11T11:27:14.640Z"
-    },
     "grill-with-docs": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -213,15 +195,6 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-06-15T10:16:02.775Z",
       "updatedAt": "2026-06-15T10:16:02.775Z"
-    },
-    "orca-cli": {
-      "source": "stablyai/orca",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/stablyai/orca.git",
-      "skillPath": "skills/orca-cli/SKILL.md",
-      "skillFolderHash": "77be03ea57ddbc4c4067bca22ab58c3af5ae3d2c",
-      "installedAt": "2026-07-12T21:34:03.766Z",
-      "updatedAt": "2026-07-12T21:34:03.766Z"
     }
   },
   "dismissed": {

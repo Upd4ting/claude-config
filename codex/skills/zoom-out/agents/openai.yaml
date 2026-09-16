@@ -1,0 +1,6 @@
+interface:
+  display_name: "Zoom Out"
+  short_description: "Explain the broader codebase context"
+  default_prompt: "Use $zoom-out to explain how this code fits into the larger system."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codex Handoff"
+  short_description: "Hand off to a background agent"
+  default_prompt: "Use $codex-handoff to hand this work to a fresh Codex task."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Create Branch and PR"
+  short_description: "Run the complete branch-to-PR workflow"
+  default_prompt: "Use $create-branch-pr to turn the current work into a pull request."
+policy:
+  allow_implicit_invocation: false
