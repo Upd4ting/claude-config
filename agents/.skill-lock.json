@@ -19,15 +19,6 @@
       "installedAt": "2026-02-13T18:00:02.296Z",
       "updatedAt": "2026-02-13T18:00:02.296Z"
     },
-    "code-review-excellence": {
-      "source": "wshobson/agents",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/wshobson/agents.git",
-      "skillPath": "plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
-      "skillFolderHash": "62630a2a65d22a351aa15b76fbf277557e58cf63",
-      "installedAt": "2026-02-13T18:11:36.421Z",
-      "updatedAt": "2026-02-13T18:11:36.421Z"
-    },
     "skill-creator": {
       "source": "anthropics/skills",
       "sourceType": "github",
@@ -75,16 +66,6 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-06-15T10:16:02.761Z",
       "updatedAt": "2026-06-15T10:16:02.761Z"
-    },
-    "diagnose": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/engineering/diagnose/SKILL.md",
-      "skillFolderHash": "43d464d0e9d1049b9d525975c0f7367ab7e01a5f",
-      "pluginName": "mattpocock-skills",
-      "installedAt": "2026-06-15T10:16:02.763Z",
-      "updatedAt": "2026-06-15T10:16:02.763Z"
     },
     "grill-me": {
       "source": "mattpocock/skills",
@@ -146,26 +127,6 @@
       "installedAt": "2026-06-15T10:16:02.771Z",
       "updatedAt": "2026-06-15T10:16:02.771Z"
     },
-    "to-issues": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/engineering/to-issues/SKILL.md",
-      "skillFolderHash": "b38c5aa6ae5d6903e60d3f74a7aafd32d02f2c06",
-      "pluginName": "mattpocock-skills",
-      "installedAt": "2026-06-15T10:16:02.772Z",
-      "updatedAt": "2026-06-15T10:16:02.772Z"
-    },
-    "to-prd": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/engineering/to-prd/SKILL.md",
-      "skillFolderHash": "fb4503f54bc618da08df2fd74109fbe57e4d8150",
-      "pluginName": "mattpocock-skills",
-      "installedAt": "2026-06-15T10:16:02.773Z",
-      "updatedAt": "2026-06-15T10:16:02.773Z"
-    },
     "triage": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -176,16 +137,6 @@
       "installedAt": "2026-06-15T10:16:02.773Z",
       "updatedAt": "2026-06-15T10:16:02.773Z"
     },
-    "write-a-skill": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/productivity/write-a-skill/SKILL.md",
-      "skillFolderHash": "2f252b35aa238879afc5a230ac30343708dee0b3",
-      "pluginName": "mattpocock-skills",
-      "installedAt": "2026-06-15T10:16:02.774Z",
-      "updatedAt": "2026-06-15T10:16:02.774Z"
-    },
     "zoom-out": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -195,6 +146,24 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-06-15T10:16:02.775Z",
       "updatedAt": "2026-06-15T10:16:02.775Z"
+    },
+    "orca-cli": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/orca-cli/SKILL.md",
+      "skillFolderHash": "ae1a86f92d7bf38f4dc161cc0c57e15a74f54832",
+      "installedAt": "2026-09-17T21:53:20.573Z",
+      "updatedAt": "2026-09-17T21:53:20.573Z"
+    },
+    "orchestration": {
+      "source": "stablyai/orca",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/stablyai/orca.git",
+      "skillPath": "skills/orchestration/SKILL.md",
+      "skillFolderHash": "23bc2ff6bb9f6e7d17f41734709ac951dbe3ee80",
+      "installedAt": "2026-09-17T21:53:20.575Z",
+      "updatedAt": "2026-09-17T21:53:20.575Z"
     }
   },
   "dismissed": {
@@ -202,14 +171,13 @@
   },
   "lastSelectedAgents": [
     "amp",
-    "antigravity",
-    "antigravity-cli",
     "cline",
     "codex",
     "cursor",
-    "deepagents",
+    "droid",
     "gemini-cli",
     "github-copilot",
+    "kilo",
     "kimi-code-cli",
     "opencode",
     "warp",
