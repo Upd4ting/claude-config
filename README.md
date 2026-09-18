@@ -29,9 +29,11 @@ and drop Claude-only frontmatter (`disable-model-invocation`,
 Codex `commit` / `create-*` skills that mirror Claude's slash commands).
 `skill-creator` is Claude-only because Codex bundles its own.
 
-Orca's `orca-cli` and `orchestration` skills are tracked on both sides, and the
-Orca agent hooks it injects into `claude/settings.json` are kept (they are
-no-ops on machines without Orca).
+Orca's `orca-cli` and `orchestration` skills are **not** tracked: Orca installs
+and updates them itself (real directories in `~/.agents/skills`, aliased from
+`~/.claude/skills`) and reports symlinks pointing elsewhere as missing.
+`install.sh` leaves them alone. The Orca agent hooks it injects into
+`claude/settings.json` are kept (they are no-ops on machines without Orca).
 
 Deliberately **not** tracked: credentials, `settings.local.json`, MCP servers,
 sessions, history and caches. Secrets such as tokens belong in
