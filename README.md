@@ -67,17 +67,3 @@ added, removed or renamed (or if a tool replaced a symlink with a real file).
 ## Runtime dependencies
 
 `notion-cli` requires `ntn`.
-
-## Proton Pass SSH agent
-
-On this Linux setup, Proton Pass exposes its SSH agent at:
-
-```text
-~/.ssh/proton-pass-ssh-agent.sock
-```
-
-Processes that do not inherit `SSH_AUTH_SOCK` can still use it explicitly:
-
-```sh
-SSH_AUTH_SOCK="$HOME/.ssh/proton-pass-ssh-agent.sock" git pull
-```

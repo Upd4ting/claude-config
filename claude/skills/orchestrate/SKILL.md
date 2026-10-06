@@ -146,7 +146,7 @@ teaches the worker to send `worker_done` to your Run mailbox when it finishes an
 **The worktree name *is* the branch name.** Always pass `--name` as `<type>/<unit-slug>`
 using a conventional commit type — `feat/`, `fix/`, `refactor/`, `chore/`, `docs/`, `test/`,
 `perf/` — chosen from what the unit actually does, e.g. `feat/expose-layer-aliases`. A name
-with no `/` gets prefixed with the user's git handle instead (`Upd4ting/expose-layer-aliases`),
+with no `/` gets prefixed with the user's git handle instead (`<handle>/expose-layer-aliases`),
 which is not what we want. The slug stays short, lowercase and hyphenated. Check the branch in
 the receipt after the first launch.
 

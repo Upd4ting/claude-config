@@ -28,8 +28,6 @@
       "Grep(*)",
       "Bash(done)",
       "Bash(sort:*)",
-      "Bash(for f in /home/upd4ting/code/altab/ai-workflow/skills/antelopejs/references/database-beta/*.md)",
-      "Bash(for f in /home/upd4ting/code/altab/ai-workflow/skills/antelopejs/references/data-api-beta/*.md)",
       "Bash(xargs:*)",
       "mcp__pencil"
     ],
