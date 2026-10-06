@@ -67,3 +67,22 @@ added, removed or renamed (or if a tool replaced a symlink with a real file).
 ## Runtime dependencies
 
 `notion-cli` requires `ntn`.
+
+## Cloud sessions (Claude Code on the web)
+
+Cloud containers start without `~/.claude`, so neither these skills nor
+`CLAUDE.md` are loaded. Add this to the environment's setup script (session
+title bar → environment menu → Edit → Setup script) to install them in every
+new session:
+
+```sh
+dir="$HOME/.claude-config"
+if [ -d "$dir/.git" ]; then
+  git -C "$dir" pull --ff-only
+else
+  git clone --depth 1 https://github.com/Upd4ting/claude-config.git "$dir"
+fi && "$dir/install.sh" --claude || echo "warn: claude-config install failed"
+```
+
+The clone needs no credentials once this repository is public. A plugin that
+fails to install only prints a warning.
