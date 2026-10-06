@@ -86,3 +86,9 @@ fi && "$dir/install.sh" --claude || echo "warn: claude-config install failed"
 
 The clone needs no credentials once this repository is public. A plugin that
 fails to install only prints a warning.
+
+`claude/settings.json` also carries a `SessionStart` hook that, in cloud
+sessions only (`CLAUDE_CODE_REMOTE=true`), runs the project's executable
+`.agents/setup` script if one exists. Use it to install project dependencies;
+it runs on every session start, including resumes, so keep it idempotent.
+Output goes to `~/.agents-setup.log`.

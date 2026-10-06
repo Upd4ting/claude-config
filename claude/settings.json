@@ -44,6 +44,15 @@
             "timeout": 10
           }
         ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ \"${CLAUDE_CODE_REMOTE-}\" = true ] && [ -x \"$CLAUDE_PROJECT_DIR/.agents/setup\" ]; then \"$CLAUDE_PROJECT_DIR/.agents/setup\" >\"$HOME/.agents-setup.log\" 2>&1 || echo \".agents/setup failed, see ~/.agents-setup.log\"; fi",
+            "timeout": 600
+          }
+        ]
       }
     ],
     "UserPromptSubmit": [
